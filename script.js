@@ -71,10 +71,11 @@ results.forEach((result) => {
 
 
   });
+	
   output.innerHTML+=`
   <tr>
     <td><strong>Total</strong></td>
-    <td>${OverAllEndTime}s</td>
+     <td>${(OverAllEndTime/1000).toFixed(3)}s</td>
   </tr>
 `;
 
